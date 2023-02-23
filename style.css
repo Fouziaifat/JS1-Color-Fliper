@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+}
+h1 {
+    font-size: 150px;
+    color: #fff;
+
+   
+}
+body {
+    background: #250474;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: #333;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+button {
+    background: #fff;
+    color: #250474;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+button:hover {
+    background: #250474;
+    color: #fff;
+    transition: 1s;
+}
+ 
